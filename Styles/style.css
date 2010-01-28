@@ -1,0 +1,16 @@
+﻿#menu {
+	width: 100%;
+	height: 64px;
+}
+
+#menu ul {
+	padding: 5px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	padding: 5px;
+	display: block;
+	float: left;
+}
