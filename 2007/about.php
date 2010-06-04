@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>About The Plague</h2>
 <p>Welcome to the Home of Team 375: The Robotic Plague.  We are an 8 year team that competes annually in the FIRST Robotics Competition.  Apart from competing in the competition, we have worked to spread the message of FIRST in our community by mentoring numerous other teams and demonstrating our robots in different technology fairs.</p>
@@ -18,7 +18,7 @@
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

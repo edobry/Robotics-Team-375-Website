@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>Animations</h2>
 <i>To download any of these movies, right click the "download" link and click 'Save Target As' or 'Save Link As'.</i><br /><br />
@@ -50,7 +50,7 @@ Possibly the best animation to emerge from Team 375's animation team.  Although 
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

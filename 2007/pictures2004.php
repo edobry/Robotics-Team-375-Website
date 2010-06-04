@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>Pictures 2004</h2>
 <h1>Around the Shop</h1>
@@ -39,7 +39,7 @@
 
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

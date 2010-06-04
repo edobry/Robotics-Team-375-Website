@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>Season 2007</h2>
 <p>The current robotics season has been going amazingly.  We put on a great Staten Island FIRST Lego League Tournament and refereed at the Bronx tournament.  The season got off to an excellent start when our animation team's safety animation submission was chosen to be the international safety animation shown at every FIRST regional, kickoff, and nationals.</p>
@@ -26,7 +26,7 @@
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

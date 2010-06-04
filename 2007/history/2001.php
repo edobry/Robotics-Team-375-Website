@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>Season 2001</h2>
 <img alt="" src="media/pictures/2001/r/1.jpg" height="213px" width="320px" align="left" class="marbor" />
@@ -31,7 +31,7 @@
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

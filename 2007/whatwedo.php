@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>What We Do</h2>
 <p>Team 375 isn't just a quiet team that keeps to themselves in their lab. Far from it. The Robotic Plague mentors various teams and helps host various tournaments around the New York City area. We have a vast network of students working in specific groups to get the job done; we don't waste a minute.</p>
@@ -20,7 +20,7 @@
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

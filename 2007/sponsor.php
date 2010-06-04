@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 <h2>Become a Sponsor</h2>
 <p>
 <h1>Current Sponsors</h1>
@@ -57,7 +57,7 @@ Thank you Letter, Team Catalog, Team Brochure, Logo Displayed on Brochure, Websi
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

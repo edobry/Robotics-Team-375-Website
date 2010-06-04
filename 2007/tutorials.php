@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>Tutorials</h2>
 <p><img alt="" src="tutorials/ss.jpg" height="103px" width="171px" class="marbor" align="left" />
@@ -32,7 +32,7 @@ A tutorial showing how to use photoshop to play around with fonts and text in or
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

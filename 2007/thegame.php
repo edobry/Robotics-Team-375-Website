@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>The Game</h2>
 <p><img alt="" src="images/tubehome.jpg" align="left" class="marbor"/> Every year, the FIRST Robotics Organization challenges students to design and build a robot to compete in a proposed game.  This years game is called "Rack and Roll."  It involves robots picking up inner tubes and scoring them on an 10 foot tall rack.  Towards the end of each round, teams can gather bonus points having their robots climb on top of or lift other robots.  For more details about the FIRST Robotics Competition and this year's game visit the links below.</p>
@@ -27,7 +27,7 @@
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

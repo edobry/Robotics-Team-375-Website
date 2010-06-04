@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>Videos</h2>
 <i>To download any of these movies, right click the "download" link and click 'Save Target As' or 'Save Link As'.</i><br /><br />
@@ -44,7 +44,7 @@ A new jersery elimination match played by Rambo and the alliance he led all the 
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

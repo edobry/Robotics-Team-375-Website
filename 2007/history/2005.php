@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>Season 2005</h2>
 <img alt="" src="media/pictures/2005/ny/9.jpg" height="213px" width="320px" align="left" class="marbor" /> <p>The 2005 season was truly an excellent year for our robotics team.  The team again sucessfully hosted the Staten Island Lego League Tournament.  In the competition season, Team 375 won the regional champion's award in both New Jersey and New York, a feat never accomplished before.  The year also marked the first year that an Autodesk Visualization Award team was founded.</p><br clear="all" />
@@ -36,7 +36,7 @@ Rocky was one of 375's strongest and sturdiest robots.  It contains a 60 pound c
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

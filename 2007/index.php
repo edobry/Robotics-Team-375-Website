@@ -6,11 +6,30 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? 
+function includeFile($file_name){
+
+   $dir = array('./', 'articles/', 'data/', 'history/', 'images/', 'media/');    //<-- put here your website directory you want to include
+   $level = array('', '/', '../', '../../');    //<-- you can add more deep level in this array
+   $ini_path = array();
+   
+   foreach($dir as $p){
+   
+      foreach($level as $l){
+         $file = $l.$p.$file_name;       
+         if(file_exists($file)){
+            include_once($file);
+            return; 
+         }       
+      }   
+   }
+}
+
+includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>Welcome to the Home of Team 375: The Robotic Plague</h2>
 <p><img alt="" src="images/team.jpg" align="left" class="marbor"/> Welcome to the website of The Robotic Plague. Feel free to explore our site and contact us with any questions or concerns. Thank you!</p>
@@ -21,7 +40,7 @@
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>

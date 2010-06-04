@@ -6,11 +6,11 @@
 
 <body>
 <div class="lside">
-<? include ("../data/menu.html") ?>
+<? includeFile ("data/menu.html") ?>
 </div>
 
 <div class="center">
-<? include ("../data/login.html") ?>
+<? includeFile ("data/login.html") ?>
 
 <h2>Season 2006</h2>
 <img alt="" src="../media/pictures/2006/ny/14.jpg" height="213px" width="320px" align="left" class="marbor" /> <p>The 2006 season marked Team 375's most successful year ever.  We began the year as we usually do: Preparing Lego League Sets and hosting our annual Staten Island Lego League Tournament.  After the tournament, we were invited to referee at every New York City Borough Lego League Tournament but had to refuse one because two of the tournaments were on the same day.  Our animation team submitted into the Safety Animation Competition for the first time.  The build season went remarkably well and the competition season better.  We started with a bang when we went undeafeated in the New Jersey Competition in the qualifying matches and won 2nd place overall.  Several weeks later in the New York Competition, we broke the record for the most awards won in a single regional.  These awards included the regioanl champion award, a safety runner-up, the Radioshack Innovation in Control Award, the Autodesk Visualization Award, the Woody Flowers Award, and FIRST's highest honor: The Regional Chairman's Award.  After the build and competition season, the team continued to remain active by hosting a demonstation at Sony Wonder Labs.</p><br clear="all" />
@@ -43,7 +43,7 @@ Although it did not like the prettiest machine at the competitions, Rambo repres
 </div>
 
 <div class="lside">
-<center><? include ("../data/companies.html") ?></center>
+<center><? includeFile ("data/companies.html") ?></center>
 </div>
 
 </body>
