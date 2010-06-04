@@ -14,7 +14,7 @@ using TeamRaile;
         /// Global variable storing important stuff.
         /// </summary>
         static System.Web.Profile.ProfileBase _oProfile = HttpContext.Current.Profile;
-        static String _MasterPage = "~/main.master";
+        static String _MasterPage = "~/layout.master";
 
         /// <summary>
         /// Get or set the static important data.

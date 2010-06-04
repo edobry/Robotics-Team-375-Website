@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/simple.master" AutoEventWireup="true" CodeFile="500.aspx.cs" Inherits="error_500" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/layout.master" AutoEventWireup="true" CodeFile="500.aspx.cs" Inherits="error_500" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="phead" Runat="Server">
 </asp:Content>

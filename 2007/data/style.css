@@ -1,0 +1,129 @@
+body {
+	margin: 150px 25px 0 25px;
+	padding: 0;
+	background: #fff;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+}
+
+
+.lside {
+	float: left;
+	width: 20%;
+}
+
+#rside {
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+.center {
+	float: left;
+	padding: 0  0 0 12px;
+	width: 55%;
+}
+
+.bars {
+	margin: 0 0 5px 0;
+	width: 100%;
+	background: #8b94a5;
+	border: 1px #646d7e solid;
+}
+
+.menus {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 10px;
+}
+
+.menuss {
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+.pic {
+	float: left;
+	margin: 7px;
+	padding: 0;
+}
+
+.marbor {
+	margin: 5px;
+	padding: 0;
+}
+
+p {
+	margin: 5px 0 5px 0;
+	padding: 0;
+}
+
+h1 { 
+	margin: 5px 0 10px 0;
+	padding: 0;
+	font-size: 10px;
+	text-transform: uppercase;	
+}
+
+h2 {
+	margin: 5px 0 10px 0;
+	padding: 0;
+	font-family: "Arial Narrow", "Arial", sans-serif;
+	font-size: 18px;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+input {
+	font-family: "Arial", "Verdana", sans-serif;
+	font-size: 10px;
+	height: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0 0 0 30px;
+}
+
+a:link {
+	margin: 0;
+	color: #808080;
+	text-decoration: none;
+}
+
+a:visited {
+	margin: 0;
+	color: #808080;
+	text-decoration: none;
+}
+
+a:hover {
+	margin: 0;
+	color: #000;
+	text-decoration: none;
+}
+
+a:active {
+	margin: 0;
+	color: #808080;
+	text-decoration: none;
+}
+
+
+#hold {
+	margin: 0;
+}

@@ -13,7 +13,10 @@
 <body>
 <form id="form1" runat="server">
     <div id="wrapper">
-        	 <div id="menu">
+        <div id="login">
+            <asp:LoginStatus ID="LoginStatus1" runat="server"/>
+        </div>
+        <div id="menu">
                 <asp:Repeater ID="rptMenu" runat="server" DataSourceID="srcSiteMap">
                     <HeaderTemplate>
                         <ul>
@@ -29,14 +32,23 @@
                         </ul>
                    </FooterTemplate>
                 </asp:Repeater>
-	        </div>
+	    </div>
+        <br />
+        <h1>
+            <asp:ContentPlaceHolder ID="pheading" runat="server"></asp:ContentPlaceHolder>
+        </h1>
         
-        <asp:ContentPlaceHolder id="pmain" runat="server">
-        
-        </asp:ContentPlaceHolder>
+        <div id="main">
+            <asp:ContentPlaceHolder id="pmain" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </div>
+    
+    <div id="footer">
+            Standard footer stuff... blah blah blah...
     </div>
     
     <asp:SiteMapDataSource ID="srcSiteMap" runat="server" ShowStartingNode="false" SiteMapProvider="default" />
+
 </form>
 </body>
 </html>

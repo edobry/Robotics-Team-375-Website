@@ -1,11 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-    <siteMapNode url="" title=""  description="" roles="*">
-      <siteMapNode url="default.aspx" title="Home"  description=""></siteMapNode>
-      <siteMapNode url="about.aspx" title="About Us"  description=""></siteMapNode>
-      <siteMapNode url="media/media.aspx" title="Media"  description=""></siteMapNode>
-      <siteMapNode url="contact.aspx" title="Contact"  description=""></siteMapNode>
-      <siteMapNode url="sponsors.aspx" title="Sponsors"  description=""></siteMapNode>
-      <siteMapNode url="members/members.aspx" title="Members"  description="" roles="User"></siteMapNode>
+    <siteMapNode url="" resourceKey="root" title=""  description="" roles="*">
+      <siteMapNode url="default.aspx" resourceKey="Home" title="Home"  description=""></siteMapNode>
+      <siteMapNode url="about/about.aspx" resourceKey="About"  title="About"  description="">
+        <siteMapNode url="about/team.aspx" resourceKey="Subteams"  title="Subteams" description=""></siteMapNode>
+        <siteMapNode url="about/people.aspx" resourceKey="Team Members"  title="Team Members" description=""></siteMapNode>
+        <siteMapNode url="about/history.aspx" resourceKey="History"  title="History" description=""></siteMapNode>
+        <siteMapNode url="about/awards.aspx" resourceKey="Awards"  title="Awards" description=""></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="media/media.aspx" resourceKey="Media"  title="Media"  description="">
+        <siteMapNode url="media/photos.aspx" resourceKey="Photo Gallery"  title="Photo Gallery" description=""></siteMapNode>
+        <siteMapNode url="media/videos.aspx" resourceKey="Videos"  title="Videos" description=""></siteMapNode>
+        <siteMapNode url="media/animations.aspx" resourceKey="Animations"  title="Animations" description=""></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="contact.aspx" resourceKey="Contact Us"  title="Contact Us"  description=""></siteMapNode>
+      <siteMapNode url="sponsors.aspx"  resourceKey="Sponsors" title="Sponsors"  description="">
+        <siteMapNode url="sponsorus.aspx" resourceKey="Become a Sponsor"  title="Become a Sponsor" description=""></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="login.aspx" resourceKey="Login" title="Login" description="" />
+      <siteMapNode url="members/members.aspx" resourceKey="Members"  title="Members"  description="" roles="User">
+        <siteMapNode url="person.aspx" resourceKey="View Profile"  title="View Profile" description=""></siteMapNode>
+        <siteMapNode url="members/profile.aspx" resourceKey="Edit Profile"  title="Edit Profile" description="" roles="User"></siteMapNode>
+        <!--<siteMapNode url="members/profile.aspx" title="Edit Profile" description="" roles="User"></siteMapNode>-->
+      </siteMapNode>
     </siteMapNode>
 </siteMap>

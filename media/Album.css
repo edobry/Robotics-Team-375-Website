@@ -1,0 +1,66 @@
+.album
+{
+    color:#2f54c0;
+}
+
+.album td
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: xx-small;
+	color: Gray;
+	background-color: transparent;
+}
+
+.album a 
+{
+	text-decoration: none;
+}
+
+.album a:hover 
+{
+	text-decoration: underline;
+}
+
+.album img 
+{
+	border: none;
+}
+
+.album h1
+{
+	font-size: large;
+	margin-bottom: 20px;
+}
+
+.albumFloat 
+{
+    float: left;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.albumDetailsLink 
+{
+}
+
+.albumMetaSectionHead 
+{
+	background-color: transparent;
+	color: White;
+	font-weight: bold;
+}
+
+.albumMetaName 
+{
+	font-weight: bold;
+}
+
+.albumMetaValue 
+{
+}
+
+.center
+{
+	text-align: center;
+}

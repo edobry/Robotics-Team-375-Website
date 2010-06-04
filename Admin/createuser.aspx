@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/simple.master" AutoEventWireup="true" CodeFile="createuser.aspx.cs" Inherits="Admin_createuser" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/layout.master" AutoEventWireup="true" CodeFile="createuser.aspx.cs" Inherits="Admin_createuser" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="phead" Runat="Server">
 </asp:Content>
@@ -10,8 +10,7 @@ Create User
     <asp:CreateUserWizard ID="CreateUserWizard1" runat="server" BackColor="#F7F6F3" 
         BorderColor="#E6E2D8" BorderStyle="Solid" BorderWidth="1px" 
         Font-Names="Verdana" Font-Size="0.8em" CreateUserButtonText="Continue" 
-        LoginCreatedUser="False" 
-        onfinishbuttonclick="CreateUserWizard1_CreatedUser" ContinueDestinationPageUrl="~/Members/members.aspx">
+        LoginCreatedUser="False" oncontinuebuttonclick="CreateUserWizard1_ContinueButtonClick1" >
         <ContinueButtonStyle BackColor="#FFFBFF" BorderColor="#CCCCCC" 
             BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" 
             ForeColor="#284775" />
@@ -91,39 +90,29 @@ Create User
                     </table>
                 </ContentTemplate>
             </asp:CreateUserWizardStep>
-            <asp:WizardStep ID="EditProfileStep" runat="server" Title="Edit Profile">
-                <asp:Panel ID="Panel1" runat="server">
-                    First Name:
-                    <asp:TextBox ID="txtFirst" runat="server" AutoCompleteType="FirstName" />
-                    <br />
-                    Last Name:
-                    <asp:TextBox ID="txtLast" runat="server" AutoCompleteType="LastName" />
-                    <br />
-                    Telephone:
-                    <asp:TextBox ID="txtTelephone" runat="server" AutoCompleteType="HomePhone"  />
-                    <br />
-                    Email:
-                    <asp:TextBox ID="txtEmail" runat="server" AutoCompleteType="Email"  />
-                    <br />
-                    Team Involvement:
-                    <asp:TextBox ID="txtCommittees" runat="server" AutoCompleteType="Disabled"  />
-                    <br />
-                    Career Goals:
-                    <asp:TextBox ID="txtCareer" runat="server" AutoCompleteType="JobTitle"  />
-                    <br />
-                    Favorite Subject:
-                    <asp:TextBox ID="txtSubject" runat="server" AutoCompleteType="Disabled"  />
-                    <br />
-                    Grade Level (number):
-                    <asp:TextBox ID="txtGrade" runat="server" AutoCompleteType="Disabled"  />
-                    <br />
-                    Hobbies and Interests:
-                    <asp:TextBox ID="txtHobbies" runat="server" AutoCompleteType="Disabled"  />
-                    <br />
-                    <asp:FileUpload ID="FileUpload1" runat="server" />
-                </asp:Panel>
-            </asp:WizardStep>
-            <asp:CompleteWizardStep runat="server" >
+<asp:CompleteWizardStep runat="server">
+    <ContentTemplate>
+        <table style="font-family:Verdana;font-size:100%;">
+            <tr>
+                <td align="center" 
+                    style="color:White;background-color:#5D7B9D;font-weight:bold;">
+                    Complete</td>
+            </tr>
+            <tr>
+                <td>
+                    The account has been successfully created.<br />Click Continue to create a 
+                    profile for the created user.</td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <asp:Button ID="ContinueButton" runat="server" BackColor="#FFFBFF" 
+                        BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" 
+                        CausesValidation="False" CommandName="Continue" Font-Names="Verdana" 
+                        ForeColor="#284775" Text="Continue" ValidationGroup="CreateUserWizard1" />
+                </td>
+            </tr>
+        </table>
+    </ContentTemplate>
             </asp:CompleteWizardStep>
         </WizardSteps>
         <HeaderStyle BackColor="#5D7B9D" BorderStyle="Solid" Font-Bold="True" 

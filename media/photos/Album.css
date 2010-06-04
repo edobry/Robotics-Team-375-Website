@@ -1,0 +1,66 @@
+body, td
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: xx-small;
+	color: Gray;
+	background-color: Black;
+}
+
+a 
+{
+	color: White;
+	text-decoration: none;
+}
+
+a:hover 
+{
+	text-decoration: underline;
+}
+
+img 
+{
+	border: none;
+}
+
+h1
+{
+	font-size: large;
+	margin-bottom: 20px;
+}
+
+.album 
+{
+}
+
+.albumFloat 
+{
+    float: left;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.albumDetailsLink 
+{
+}
+
+.albumMetaSectionHead 
+{
+	background-color: Gray;
+	color: White;
+	font-weight: bold;
+}
+
+.albumMetaName 
+{
+	font-weight: bold;
+}
+
+.albumMetaValue 
+{
+}
+
+.center
+{
+	text-align: center;
+}

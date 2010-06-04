@@ -1,0 +1,191 @@
+body{
+	background-image: url(images/bg.png);
+	background-repeat: repeat-x
+}
+  
+#container{
+
+		width: 800px;
+		margin-left:auto;
+    	margin-right:auto;
+
+}
+
+#content {
+		float:left;
+		background-image: url(images/content-bg.png);
+
+		margin-left:auto;
+    	margin-right:auto;
+    	
+    	padding:20px;
+    	width:50%;
+    	min-width:570px;
+    	min-height:960px;
+	margin-bottom:50px;
+}
+
+#contentmain {
+		float:left;
+		background-image: url(images/content-bg.png);
+
+		margin-left:auto;
+    	margin-right:auto;
+    	
+    	padding:20px;
+    	width:50%;
+    	min-width:670px;
+    	min-height:960px;
+margin-bottom:50px;
+}
+
+
+
+#sidebar{
+background-image: url(images/content-bg.png);
+float:left;
+width:100px;
+height:1000px;
+
+}
+#spacer{
+		margin-left:auto;
+    	margin-right:auto;
+    	margin-top:-15px;
+    	padding:20px;
+    	width:50%;
+    	min-width:500px;
+    	
+}
+
+#right{
+		float: left;
+		margin-left:auto;
+			
+	
+		background-image: url("images/content-right.png");
+		background-repeat: no-repeat;
+		width:45px;
+		min-height:1000px;
+	
+}
+
+#left{
+		float: left;
+		
+		margin-right:auto;
+	
+		background-image: url("images/content-left.png");
+		background-repeat: no-repeat;
+		width:45px;
+		min-height:1000px;
+
+
+
+}
+
+     
+    
+#banner {
+	
+		background-image: url(images/top-ban.png);
+		background-repeat: no-repeat;
+		margin-left:auto;
+		margin-right:auto;
+				
+		 width:50%;
+		 min-width:800px;
+		min-height:133px;
+}	
+
+#buttons {
+	
+	margin-left:auto;
+    	margin-right:auto;
+      		
+   	 width:50%;
+   	 min-width:800px;
+    		height:43px;
+}
+
+#bottom {
+	background-image: url("images/bot-ban.png");
+	margin-left:auto;
+    	margin-right:auto;
+      		
+   	 width:50%;
+   	 min-width:800px;
+    	min-height:47px;
+}	
+
+
+    #sponsors {
+	margin-left:auto;
+    margin-right:auto;
+    margin-top:-15px;
+    padding:20px;
+    width:50%;
+    min-width:800px;
+    min-height:200px;
+}
+
+  
+a.home{
+	float: left;
+ 	display: block;
+   	 width: 164px;
+	height: 47px;
+   	text-decoration: none;
+  	 background: url("images/home.png");
+}
+ a.home:hover {
+    	background-position: -164px 0;
+}
+
+a.media{
+	float:left;
+ 	display: block;
+    	width: 157px;
+   	 height: 47px;
+  	 text-decoration: none;
+ 	 background: url("images/media.png");
+}	
+ a.media:hover {
+    background-position: -157px 0;
+ }
+
+a.homefront{
+	float:left;
+ 	display: block;
+    	width: 158px;
+    	height: 47px;
+    	text-decoration: none;
+    	background: url("images/ph.png");
+}
+ a.homefront:hover {
+    	background-position: -158px 0;
+ }
+
+a.team{
+	float:left;
+ 	display: block;
+   	 width: 157px;
+    	height: 47px;
+    	text-decoration: none;
+    	background: url("images/team.png");
+}
+ a.team:hover {
+    	background-position: -157px 0;
+ }
+
+a.contact{
+	float:left;
+ 	display: block;
+    	width: 164px;
+    	height: 47px;
+    	text-decoration: none;
+    	background: url("images/contact.png");
+}
+ a.contact:hover {
+    	background-position: -164px 0;
+}
